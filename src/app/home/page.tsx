@@ -381,7 +381,7 @@ const testimonials = [
   },
 ];
 
-export const products = [
+const products = [
   {
     title: "KKR VS SRH Match 3",
     link: "https://www.kkr.in/scores-fixtures/kolkata-knight-riders-vs-sunrisers-hyderabad-live-scores-krsh03232024237773",
