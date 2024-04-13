@@ -228,9 +228,9 @@ export default function HeroParallaxDemo() {
 
 
 
-    <footer class="bg-gray-900 text-gray-300 p-4">
-    <div class="container mx-auto">
-        <div class="flex justify-between items-center">
+    <footer className="bg-gray-900 text-gray-300 p-4">
+    <div className="container mx-auto">
+        <div className="flex justify-between items-center">
             <div>
                 <p>&copy; Kolata Kinght Riders</p>
             </div>
@@ -298,7 +298,7 @@ const content = [
   {
     title: "Nitish Rana",
     description:
-      "As they normally say in cricket, left-handed batters are elegance personified, one can definitely say that's the case of Nitish Rana. A fluent middle-order batter with peculiar class & grace to his batting coupled with an impressive power game.",
+      "As they normally say in cricket, left-handed batters are elegance personified, one can definitely say that's the case of Nitish Rana. A fluent middle-order batter with peculiar className & grace to his batting coupled with an impressive power game.",
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white" >
         <Image
