@@ -11,9 +11,7 @@ export const InfiniteMovingCards = ({
   className,
 }: {
   items: {
-    quote: string;
-    name: string;
-    title: string;
+    link: string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -98,13 +96,13 @@ export const InfiniteMovingCards = ({
           <li
             className="w-[450px] max-w-full px-8 py-6 md:w-[450px] lg:w-[600px] h-full flex-shrink-0"
             
-            key={item.name}
+            key={item.link}
           >
             
             <blockquote>
            
              
-              <iframe width="100%" height="350px" src={item.quote} title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  ></iframe>
+              <iframe width="100%" height="350px" src={item.link} title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  ></iframe>
              
               
             </blockquote>
